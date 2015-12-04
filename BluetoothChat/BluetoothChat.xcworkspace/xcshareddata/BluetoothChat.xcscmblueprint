@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CB9C10B2C31DA3A8C4F609BDA15DE5F8DA052C28",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2dc581a5-2a26-4aac-b2d7-22a5e8ddad96++5659" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB9C10B2C31DA3A8C4F609BDA15DE5F8DA052C28" : 0,
+    "2dc581a5-2a26-4aac-b2d7-22a5e8ddad96++5659" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F725CA49-CD8A-4460-874D-E0808B07DE3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB9C10B2C31DA3A8C4F609BDA15DE5F8DA052C28" : "bluetoochat\/",
+    "2dc581a5-2a26-4aac-b2d7-22a5e8ddad96++5659" : "bluetoochat\/BluetoothChat\/BluetoothChat\/Libs\/Reachability2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BluetoothChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BluetoothChat\/BluetoothChat.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/httsolution.com\/svn\/plw",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2dc581a5-2a26-4aac-b2d7-22a5e8ddad96++5659"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/nguyen_duc\/bluetoochat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB9C10B2C31DA3A8C4F609BDA15DE5F8DA052C28"
+    }
+  ]
+}

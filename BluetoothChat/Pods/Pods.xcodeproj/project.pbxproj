@@ -1,0 +1,1570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00580D0E74D427666ABC0653FA905D0F /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F32BBFCD0E333C38C3C33D1BCA72567A /* UIResponder+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		077020931940E82DCDB496840C2BE8A4 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5F343A65EB01067E563E4A868B7134 /* SLKTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		093609D078A154B7E17835F75A487E3C /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A82269DF480DC5EB3A17A9723B59977 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E31B1063CDB87F9E557141B7A6DE9AC /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A92FCAA337914B0D7A5F19D06CCBE /* ConstraintAttributes.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F3945BDB5B276919FAD97284694FCE5 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D284049E90C6B722F292C82059E127D /* SnapKit.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		10E4F87EC05A156DFD144946522F1E06 /* GBDeviceInfoInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BFDE144449457F56AAADB384F19DA0 /* GBDeviceInfoInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		110D7BE71AE8FD94BA4B956A5F8E4162 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 014F024068BFE412A7C71185BEAAA546 /* SnapKit-dummy.m */; };
+		13E5093C86CC0F7CCEBADF9E6135C6FB /* SwiftColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 370062E4D018E8499B734C6E09EEAFC9 /* SwiftColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC3900131C6A6750621041804090323 /* GBDeviceInfo_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F07431A7934DA8AC0D984AD3079784 /* GBDeviceInfo_iOS.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21B7F1B6A9BE368489A2012FA1E8E6A8 /* SLKTextView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DD8260F8706C76E81052C3AE8A6E2A /* SLKTextView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244C3DF7551E9C6F895A2CA8464C153D /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD62A92A0A44EB8656B63B93F753F13 /* ViewController+SnapKit.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		28902C634789436CD72BC8BB74187ACA /* UIScrollView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3ECE84E6CB6DF5DAF488747D2429FA /* UIScrollView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2950FA8486174E7E4259889F64F02862 /* GBDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D35125CE8A4B537C509395B7BB48C2B1 /* GBDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFFC46C8508E6D7607DEF4E3FAE82A5 /* GBDeviceInfo_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E23954561AC72AF1B4B0B8BBDBDE0C /* GBDeviceInfo_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FD9FC4A682F0F9B090634BA8D5473BD /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7D8EAE2AB369100903CC9F8994320 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		309CC3316F6CEFE800BBF47093211F48 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47820588797778002D233E1D558F256A /* LayoutConstraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		345A8558F7074B9EF7C4119112160E8F /* GBDeviceInfo_Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 7710ABF3DBB52FBC7D0D389254EA9782 /* GBDeviceInfo_Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		371909A654C1CA6858A82E65F775751C /* UIView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4CD92968BD75D61CE713FD3F47790C /* UIView+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38AEB97731426DA92B56E52CCD850851 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 830647E07923502B9428923D1A4F4BE6 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3B11EEC07369EF0BD18D15CEBBC5A426 /* UIResponder+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E82AF26E97632B353EFE0CF312B59BE /* UIResponder+SLKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB7862FB83E65375AB21FC76E2DE753 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA78D27843C3D95F1C8E174460E669B /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F9228CAF4E9FB25F54FF8B1DEC44048 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08443D5B012FC22E27523612B96868DE /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4043DC6FC0DC772A24E80DBE6F848F83 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA427E320E43EE09E078CAA8AD625D9A /* SLKInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4661B2C1110AEF944B8A9848080FC2A2 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BDF233EEBB165889A701DF24ECD90A0 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51FE4DF0FA945C44D3E0C6BB63037FFF /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D5FCEFD6749BE39BA091185013BC1C /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708114E7895F2F9134725C65F3ABCDF0 /* SLKTextViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58ACC26E2F919723B35E2E85A9E6C4C9 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E59FF1C516EFF1C924E5B05E7C29500 /* ConstraintItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58B4B7CF780F91B3FC5A32C54A4231C9 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DEC6E53748C4F7E80F4FC0EB709FDF /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E160CF773B8BE07B9677FB9218A532F /* GBDeviceInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFEB89561BB0F2619BBD876CA9FC386 /* GBDeviceInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BC2225AE3CB4ABF230C602B945EA66 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B7A5B67C823A56F1A64E5C6E2B4E81 /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6ABFEF2105DD5B06926104C7B94E8ABA /* SwiftColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47174453E93FACF2AA4F5E9193364B95 /* SwiftColors-dummy.m */; };
+		6CB1828C416F681A63BD11E611047377 /* SLKTextInputbar.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF0464AEB8DEB033B8B76BDAC12014E /* SLKTextInputbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		707092472B9A034BCBADF560B8514652 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F06220E3DA024E593C826AA8276C04D /* SLKTextInputbar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		73211CAC36D737BDF6E7892DEF91D65E /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F43FBB83E08A4F77DA7D838F1C73C7 /* SLKTextView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76E00BBE2B84F8EA87EDFC8086132442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		77567A39064755A7CEB4B1B36CA61A21 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C92944A6DEC6D740FF54B797941C5BCD /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7953181FD7F91C0AD76B2390BAAB34BF /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 923C4690FCA36514362A5028E3DC5164 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7C58AFE87F0BCA42B324ACA31FE54126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		7C6397AEA0086C2DFAF5FE4371A111F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		806FF336D31CBB53FB891A25753664DE /* SlackTextViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BCF8C50B892494F60BBF7DDBCBE3A1 /* SlackTextViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82FA1C12B0617881A6806FCDE2142C82 /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A992F3796696ADB61C06C05789012DEA /* SLKTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DBBC894A6203F6E4CFCDDA4911C9AF /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 837B99033FF87FE6163436D7F78ECF7C /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844BE3BB2A382BFA4DA7D44C0BA737E0 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA59AAC910E3B98BC6EDB82558BA706 /* View+SnapKit.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D7060421DD99DAF920F2E6D8685E997 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2146FDC01752BD6E411C12CF95B2D26 /* ConstraintMaker.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8FBBD18B2D7732E713814EBCD2FA7DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		91FDF8A5A1BC96856AC4470759421D6B /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E18147D2EDD7589A78CB4EB1590247 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9630205806FA13CEE278F4E4FA6DA3F0 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A26068437210B1C8D942109A8FF0BD05 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96667AC161CF9502DF58813A19243558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		96791A9A2AC373B3169148CFDFB30329 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2E0671D4C22A08B5E6EFB02A5E7ACB /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		99A0409B94F27AB711149A02455CD76A /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6554D2E936A2BD430696C6CF9C0E97 /* SwiftColors.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B2483F08016E84902490A4B455E9D66 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0D97807E1E9239241D0E7FFF5B785 /* EdgeInsets.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C560A779BCB939BFB45CE273FFEB387 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B59361FBFB21578BE56D5DEFBEF3B0 /* SLKTypingIndicatorView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CD2DCC591BB67DFE6B167ABB9D8DFF0 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D9AB7B3791A0A93608EFD340351550 /* CocoaLumberjack-dummy.m */; };
+		A52CCDA01DC0834762A81530E3E9A0EB /* SlackTextViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E42C11B3284C38F4438FC99BF7132 /* SlackTextViewController-dummy.m */; };
+		A6DD865D2612C625355429142922E74B /* GBDeviceInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07D7AADB27220C66072C9B098D96B0B /* GBDeviceInfo-dummy.m */; };
+		A943CEA0E0E9706EDA7D667E54A41383 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A13E182D7D9F854A2707BB40CDC6D3 /* CocoaLumberjack.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ADAB596307334EB253E60C441CB46139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		AEECEAAD9A4595765E85A79BED9FDE1C /* GBDeviceInfo_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 853CC380A78DD4AFA8C2FEA28DBFF1A1 /* GBDeviceInfo_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52ED7C3E386EAAEB87ED5D350FDD867 /* SLKUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D7D48AD1886983F9E51464E57F66D7 /* SLKUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59479B42D447FD2BB4B19038D16B372 /* GBDeviceInfoTypes_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B044D0C6B865FC7E7DF5639B5E4132 /* GBDeviceInfoTypes_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBE70BF278839FCFE6F66C0E7B65A495 /* AFDateHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B3332E3E4E0852F314645F240B1260 /* AFDateHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD687FC56130CEEB1049FEEC1127C5F7 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEDD780997E2763247BFDCA10A0CA13 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD968DA2F98D7154D38AF4E63104A00E /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = A4ED5CA6DE91FDC434DBED410EC357C1 /* SLKTypingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDBC6DD1CC29BF42DEC4F076A742CF54 /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CFB664ECA9AC71B26AACC359941CC /* UIScrollView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BED21B6237708EC89E1CDC9E7E4FCB49 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3E7D9C25388AC1B4C44424AF4A7479 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A0547274B4F3B3A59A0B40554047EB /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = DB546C886D2D553B11F17C7E0E7DE9D6 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C3127BE1CA1F3DB05CA0F59A5935AC72 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B7872831F128C60F8D0912ADE0750E /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C4649211293E6E7FAA93335F4C14377D /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B4C34EB269FD2847D3F6EFC8112236 /* ConstraintDescription.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CA03F7722D1853741519CD97391C345D /* GBDeviceInfoTypes_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3740019136AB82318351ED43E9C688CC /* GBDeviceInfoTypes_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBCADFADD7CB2142F237EAE793E7A4CA /* SLKTypingIndicatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 10FE124D451B0054008626A2ADC3CF73 /* SLKTypingIndicatorProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD81315E9E8FD7FD4F3C4D28BAB50C3D /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F525EC4974EB7A83501D7F9AF67C82D /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE845B8915DBE56DD3AD45F357984782 /* GBDeviceInfo_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1BE8938542BAB3EE3AE48D675BC806 /* GBDeviceInfo_Common.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF0A66D6FFD76715E8013249FC9F2989 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		D2D417A51677012E9EEF8F1297F87231 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFED5AF3ECE92949F18086C9D549E02 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAD7F3DFC704648E1E59054223603325 /* SLKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B523B3D03E3BB7E0F3A2FED5532973 /* SLKTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E89A74333ED744626EA021E6D921975B /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2585C72E5BBAC53190282311C0813FD9 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA756951489E13FD03C8051CF791A0D9 /* AFDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2144BD62DFDEFAD5BCE6CEA8E218FC2 /* AFDateExtension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ECA5EE5B36D30AC907E3686F2777C928 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08397A786352E08D877A2E3064DE42 /* UIView+SLKAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ECB58C2372417300030D10FE302FD32E /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC0203D2B34694E0DED69F1834DA71E /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE61F282567EEFBBDC8BA0BE06433C6F /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = F06A3CE004C1F89F3604D7FF31801E27 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB45C241848764639F5F05FBCE25DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		EFD1A8C17A9631363C4AC6E2BE2F1434 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 379C306499FC65EB152C85D6D21C55DC /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C238F8835C1630C61D89E1FC35833F /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CB198A3251AB54F7EB4F0D5A5E1FB9 /* Debugging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1F18B1237219DA8851C06C2B6444EBB /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F6566E3C89FE0161599C2A88BBA33 /* SLKInputAccessoryView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F59A69BDF72CB491050ECF8CF7B52521 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6802FE562C82C526D9C6B7106BFD27 /* ConstraintRelation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA98D34460142546041601F57E2D7662 /* AFDateHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF786C755F07501B23EB8ABF0BCF79 /* AFDateHelper-dummy.m */; };
+		FB73CC220FBF2BD69320CC68B7892CFB /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = F413F7D6A8D98852E2A44027E4948E84 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030D7E1F8943B4F55A7B672560534389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0E15E66B54B2B42F029A61934F800D;
+			remoteInfo = GBDeviceInfo;
+		};
+		04F577B097111D2164D1627858E8FCDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F65B5FC465EEAE8D06DA022115DFDF17;
+			remoteInfo = AFDateHelper;
+		};
+		7F1F3298C1FC116F0079489DC31C5458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D082FD9722F53B9C3A1229257D4008F7;
+			remoteInfo = CocoaLumberjack;
+		};
+		AE1C810B20156C3F5B4CADE5026E9C2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A742196FEB88DCC64D4177BBBED16A;
+			remoteInfo = SnapKit;
+		};
+		BF4E01D28FC416A0BD650EE5D8C21D66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB463CD22FFCCC5E9A287E3CC34880A;
+			remoteInfo = SwiftColors;
+		};
+		C7CFDC75483DE86077C8EF807CC09C68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1ADDC57BD295800566C564E5B0B24F6;
+			remoteInfo = SlackTextViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B4C34EB269FD2847D3F6EFC8112236 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		014F024068BFE412A7C71185BEAAA546 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		06B7A5B67C823A56F1A64E5C6E2B4E81 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		08443D5B012FC22E27523612B96868DE /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		0A1BE8938542BAB3EE3AE48D675BC806 /* GBDeviceInfo_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_Common.m; path = GBDeviceInfo/GBDeviceInfo_Common.m; sourceTree = "<group>"; };
+		0A82269DF480DC5EB3A17A9723B59977 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		0BDF233EEBB165889A701DF24ECD90A0 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		0CFEB89561BB0F2619BBD876CA9FC386 /* GBDeviceInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-umbrella.h"; sourceTree = "<group>"; };
+		0CFF786C755F07501B23EB8ABF0BCF79 /* AFDateHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFDateHelper-dummy.m"; sourceTree = "<group>"; };
+		10DEC6E53748C4F7E80F4FC0EB709FDF /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		10FE124D451B0054008626A2ADC3CF73 /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorProtocol.h; path = Source/SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		16B59361FBFB21578BE56D5DEFBEF3B0 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTypingIndicatorView.m; path = Source/SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		176AD429B1F716829041738AD643507C /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B93A74881C5BD81A567EE43E0975C6 /* SwiftColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftColors.xcconfig; sourceTree = "<group>"; };
+		1CD62A92A0A44EB8656B63B93F753F13 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		21114E947E94779DEB4215B360AE6327 /* SlackTextViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlackTextViewController.xcconfig; sourceTree = "<group>"; };
+		2585C72E5BBAC53190282311C0813FD9 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		27DD8260F8706C76E81052C3AE8A6E2A /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SLKTextView+SLKAdditions.h"; path = "Source/SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2CA59AAC910E3B98BC6EDB82558BA706 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		2F9EEE897B49DC3CF8FC3B27F49C4DF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B523B3D03E3BB7E0F3A2FED5532973 /* SLKTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextView.h; path = Source/SLKTextView.h; sourceTree = "<group>"; };
+		32E23954561AC72AF1B4B0B8BBDBDE0C /* GBDeviceInfo_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_iOS.h; path = GBDeviceInfo/GBDeviceInfo_iOS.h; sourceTree = "<group>"; };
+		36AEE113071B4EF84D1D6AB109631A6F /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		36BFDE144449457F56AAADB384F19DA0 /* GBDeviceInfoInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoInterface.h; path = GBDeviceInfo/GBDeviceInfoInterface.h; sourceTree = "<group>"; };
+		370062E4D018E8499B734C6E09EEAFC9 /* SwiftColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftColors-umbrella.h"; sourceTree = "<group>"; };
+		3740019136AB82318351ED43E9C688CC /* GBDeviceInfoTypes_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_Common.h; path = GBDeviceInfo/GBDeviceInfoTypes_Common.h; sourceTree = "<group>"; };
+		379C306499FC65EB152C85D6D21C55DC /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		37E403F3A83B400C89A769E608FCDC6D /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		39B3332E3E4E0852F314645F240B1260 /* AFDateHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFDateHelper-umbrella.h"; sourceTree = "<group>"; };
+		3D2E0671D4C22A08B5E6EFB02A5E7ACB /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EA7D8EAE2AB369100903CC9F8994320 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		47174453E93FACF2AA4F5E9193364B95 /* SwiftColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftColors-dummy.m"; sourceTree = "<group>"; };
+		47820588797778002D233E1D558F256A /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		47D9AB7B3791A0A93608EFD340351550 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		4D284049E90C6B722F292C82059E127D /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		4E7D71FD61AB373C077DF8FE387D3BA0 /* SwiftColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7F2A8A79A79F1FFBA4A77855F464E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F525EC4974EB7A83501D7F9AF67C82D /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		4F6CFB664ECA9AC71B26AACC359941CC /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SLKAdditions.m"; path = "Source/UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		522A92FCAA337914B0D7A5F19D06CCBE /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		52F43FBB83E08A4F77DA7D838F1C73C7 /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SLKTextView+SLKAdditions.m"; path = "Source/SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		535EE2BC3B3C2140C01016F1376933CA /* GBDeviceInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBDeviceInfo.xcconfig; sourceTree = "<group>"; };
+		54032BF90788C0633600AF168D892941 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559E42C11B3284C38F4438FC99BF7132 /* SlackTextViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlackTextViewController-dummy.m"; sourceTree = "<group>"; };
+		5628165072F3E85F9D9FFD1DC91C701B /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		56CFAF4BE0702D97439F8D3D8D1CC162 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		5A6AFF7AA590861BBF257EE79A1B4435 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		5B3C2517E444F30761EC361CD63F3112 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B6554D2E936A2BD430696C6CF9C0E97 /* SwiftColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftColors.swift; path = SwiftColors/SwiftColors.swift; sourceTree = "<group>"; };
+		5C2F6566E3C89FE0161599C2A88BBA33 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKInputAccessoryView.m; path = Source/SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		5DFD62B76B3B23C5C681B041204D5888 /* AFDateHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFDateHelper-prefix.pch"; sourceTree = "<group>"; };
+		5F3E7D9C25388AC1B4C44424AF4A7479 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		609F29070A064CD518DD708CC54591DA /* SlackTextViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-prefix.pch"; sourceTree = "<group>"; };
+		67BCF8C50B892494F60BBF7DDBCBE3A1 /* SlackTextViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-umbrella.h"; sourceTree = "<group>"; };
+		6E06BFAA41589F4E3CF0BBFB66A6C7ED /* GBDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
+		6F06220E3DA024E593C826AA8276C04D /* SLKTextInputbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextInputbar.m; path = Source/SLKTextInputbar.m; sourceTree = "<group>"; };
+		708114E7895F2F9134725C65F3ABCDF0 /* SLKTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextViewController.m; path = Source/SLKTextViewController.m; sourceTree = "<group>"; };
+		73A13E182D7D9F854A2707BB40CDC6D3 /* CocoaLumberjack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaLumberjack.swift; path = Classes/CocoaLumberjack.swift; sourceTree = "<group>"; };
+		7523DEC48D1B3932E70C5C4C58A43F5E /* SlackTextViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlackTextViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7710ABF3DBB52FBC7D0D389254EA9782 /* GBDeviceInfo_Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Subclass.h; path = GBDeviceInfo/GBDeviceInfo_Subclass.h; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7B5F343A65EB01067E563E4A868B7134 /* SLKTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextView.m; path = Source/SLKTextView.m; sourceTree = "<group>"; };
+		82B87E7293E2DC4445FBE514B47C1060 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830647E07923502B9428923D1A4F4BE6 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		837B99033FF87FE6163436D7F78ECF7C /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		83AA23C852A42F81B96FA9039DDE4B96 /* GBDeviceInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GBDeviceInfo.modulemap; sourceTree = "<group>"; };
+		853CC380A78DD4AFA8C2FEA28DBFF1A1 /* GBDeviceInfo_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Common.h; path = GBDeviceInfo/GBDeviceInfo_Common.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		892EE83FE13C7F222C838DCCF22C2466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8F08397A786352E08D877A2E3064DE42 /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SLKAdditions.m"; path = "Source/UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		923C4690FCA36514362A5028E3DC5164 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		93D7D48AD1886983F9E51464E57F66D7 /* SLKUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKUIConstants.h; path = Source/SLKUIConstants.h; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		9DA0D97807E1E9239241D0E7FFF5B785 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		9E59FF1C516EFF1C924E5B05E7C29500 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		9E82AF26E97632B353EFE0CF312B59BE /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SLKAdditions.h"; path = "Source/UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		A0600E9B3F9D09FD8D6D7E48203219FA /* SlackTextViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SlackTextViewController.modulemap; sourceTree = "<group>"; };
+		A26068437210B1C8D942109A8FF0BD05 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		A34F2E995B4297BD37DA48240B6424D0 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4ED5CA6DE91FDC434DBED410EC357C1 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorView.h; path = Source/SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		A992F3796696ADB61C06C05789012DEA /* SLKTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextViewController.h; path = Source/SLKTextViewController.h; sourceTree = "<group>"; };
+		ABA78D27843C3D95F1C8E174460E669B /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		ACEDD780997E2763247BFDCA10A0CA13 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		B07D7AADB27220C66072C9B098D96B0B /* GBDeviceInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBDeviceInfo-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAFED5AF3ECE92949F18086C9D549E02 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		BCF51A3F4D1CFA816B71557B19B933FD /* AFDateHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFDateHelper.modulemap; sourceTree = "<group>"; };
+		C4ABA2E143EC975FD7D006CF30F16C2C /* AFDateHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFDateHelper.xcconfig; sourceTree = "<group>"; };
+		C5D2F4432635BD48682636807888889C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B044D0C6B865FC7E7DF5639B5E4132 /* GBDeviceInfoTypes_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_iOS.h; path = GBDeviceInfo/GBDeviceInfoTypes_iOS.h; sourceTree = "<group>"; };
+		C92944A6DEC6D740FF54B797941C5BCD /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CCF0464AEB8DEB033B8B76BDAC12014E /* SLKTextInputbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextInputbar.h; path = Source/SLKTextInputbar.h; sourceTree = "<group>"; };
+		D02CBD10068452AA4C87E2BE578C096B /* AFDateHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFDateHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2146FDC01752BD6E411C12CF95B2D26 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		D35125CE8A4B537C509395B7BB48C2B1 /* GBDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo.h; path = GBDeviceInfo/GBDeviceInfo.h; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DB546C886D2D553B11F17C7E0E7DE9D6 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		DD6074D2D392904EA45C3113E29C1F0D /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		DE4CD92968BD75D61CE713FD3F47790C /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SLKAdditions.h"; path = "Source/UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		E5E18147D2EDD7589A78CB4EB1590247 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99E581D683C59ADFB5B410E63A19F03 /* SwiftColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftColors-prefix.pch"; sourceTree = "<group>"; };
+		EA427E320E43EE09E078CAA8AD625D9A /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKInputAccessoryView.h; path = Source/SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		EB68D0261AEA2BF4CD8BE221B1D8EF60 /* SwiftColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftColors.modulemap; sourceTree = "<group>"; };
+		ED6802FE562C82C526D9C6B7106BFD27 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		F06A3CE004C1F89F3604D7FF31801E27 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		F0B7872831F128C60F8D0912ADE0750E /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		F2144BD62DFDEFAD5BCE6CEA8E218FC2 /* AFDateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFDateExtension.swift; path = AFDateHelper/AFDateExtension.swift; sourceTree = "<group>"; };
+		F2F07431A7934DA8AC0D984AD3079784 /* GBDeviceInfo_iOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_iOS.m; path = GBDeviceInfo/GBDeviceInfo_iOS.m; sourceTree = "<group>"; };
+		F32BBFCD0E333C38C3C33D1BCA72567A /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+SLKAdditions.m"; path = "Source/UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		F413F7D6A8D98852E2A44027E4948E84 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		F5CB198A3251AB54F7EB4F0D5A5E1FB9 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		FB3ECE84E6CB6DF5DAF488747D2429FA /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLKAdditions.h"; path = "Source/UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		FEC0203D2B34694E0DED69F1834DA71E /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		FFBFF3F5A1A9F5FB53CF66235275ECB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0187858F3F0E6AF555DEE9DF8CBC71B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB45C241848764639F5F05FBCE25DF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FD4690B28B25CF233325ED2708BA55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6397AEA0086C2DFAF5FE4371A111F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEC251EB34CAF0A4D7614C38C9534F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAB596307334EB253E60C441CB46139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA6093136D5F9642F2107207404DC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96667AC161CF9502DF58813A19243558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5649C4B64E4B9F0796050F4D3921DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBBD18B2D7732E713814EBCD2FA7DA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FEB54F7A0E2B675F7D44E47E56C76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C58AFE87F0BCA42B324ACA31FE54126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55A5D38E17DEE585641E9AD7B4831EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E00BBE2B84F8EA87EDFC8086132442 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7DDFED8953A783DE73A9B3D55F1755 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D35125CE8A4B537C509395B7BB48C2B1 /* GBDeviceInfo.h */,
+				853CC380A78DD4AFA8C2FEA28DBFF1A1 /* GBDeviceInfo_Common.h */,
+				0A1BE8938542BAB3EE3AE48D675BC806 /* GBDeviceInfo_Common.m */,
+				32E23954561AC72AF1B4B0B8BBDBDE0C /* GBDeviceInfo_iOS.h */,
+				F2F07431A7934DA8AC0D984AD3079784 /* GBDeviceInfo_iOS.m */,
+				7710ABF3DBB52FBC7D0D389254EA9782 /* GBDeviceInfo_Subclass.h */,
+				36BFDE144449457F56AAADB384F19DA0 /* GBDeviceInfoInterface.h */,
+				3740019136AB82318351ED43E9C688CC /* GBDeviceInfoTypes_Common.h */,
+				C6B044D0C6B865FC7E7DF5639B5E4132 /* GBDeviceInfoTypes_iOS.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1DFCDE33A553A59B110CBBD8F0CEBB5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75CE96653E072263FEDAACF58524B35F /* AFDateHelper */,
+				2EA6827B2BF120DB6F34599A995FEC73 /* CocoaLumberjack */,
+				2EE8CD06F698DC9EFDBE8E61D8496949 /* GBDeviceInfo */,
+				22E3F79A19966093C8A32C95418742F6 /* SlackTextViewController */,
+				B4F4784BFC9F2DA3B44630B5757B11F0 /* SnapKit */,
+				C554F7178D2F7B64BF21ECA972C6310D /* SwiftColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22E3F79A19966093C8A32C95418742F6 /* SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EA427E320E43EE09E078CAA8AD625D9A /* SLKInputAccessoryView.h */,
+				5C2F6566E3C89FE0161599C2A88BBA33 /* SLKInputAccessoryView.m */,
+				CCF0464AEB8DEB033B8B76BDAC12014E /* SLKTextInputbar.h */,
+				6F06220E3DA024E593C826AA8276C04D /* SLKTextInputbar.m */,
+				32B523B3D03E3BB7E0F3A2FED5532973 /* SLKTextView.h */,
+				7B5F343A65EB01067E563E4A868B7134 /* SLKTextView.m */,
+				27DD8260F8706C76E81052C3AE8A6E2A /* SLKTextView+SLKAdditions.h */,
+				52F43FBB83E08A4F77DA7D838F1C73C7 /* SLKTextView+SLKAdditions.m */,
+				A992F3796696ADB61C06C05789012DEA /* SLKTextViewController.h */,
+				708114E7895F2F9134725C65F3ABCDF0 /* SLKTextViewController.m */,
+				10FE124D451B0054008626A2ADC3CF73 /* SLKTypingIndicatorProtocol.h */,
+				A4ED5CA6DE91FDC434DBED410EC357C1 /* SLKTypingIndicatorView.h */,
+				16B59361FBFB21578BE56D5DEFBEF3B0 /* SLKTypingIndicatorView.m */,
+				93D7D48AD1886983F9E51464E57F66D7 /* SLKUIConstants.h */,
+				9E82AF26E97632B353EFE0CF312B59BE /* UIResponder+SLKAdditions.h */,
+				F32BBFCD0E333C38C3C33D1BCA72567A /* UIResponder+SLKAdditions.m */,
+				FB3ECE84E6CB6DF5DAF488747D2429FA /* UIScrollView+SLKAdditions.h */,
+				4F6CFB664ECA9AC71B26AACC359941CC /* UIScrollView+SLKAdditions.m */,
+				DE4CD92968BD75D61CE713FD3F47790C /* UIView+SLKAdditions.h */,
+				8F08397A786352E08D877A2E3064DE42 /* UIView+SLKAdditions.m */,
+				B10F97046189AC25010722BF91CF6233 /* Support Files */,
+			);
+			path = SlackTextViewController;
+			sourceTree = "<group>";
+		};
+		2860DABDDD2DEAF179DFCF53B4DB56B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83AA23C852A42F81B96FA9039DDE4B96 /* GBDeviceInfo.modulemap */,
+				535EE2BC3B3C2140C01016F1376933CA /* GBDeviceInfo.xcconfig */,
+				B07D7AADB27220C66072C9B098D96B0B /* GBDeviceInfo-dummy.m */,
+				6E06BFAA41589F4E3CF0BBFB66A6C7ED /* GBDeviceInfo-prefix.pch */,
+				0CFEB89561BB0F2619BBD876CA9FC386 /* GBDeviceInfo-umbrella.h */,
+				5B3C2517E444F30761EC361CD63F3112 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GBDeviceInfo";
+			sourceTree = "<group>";
+		};
+		2EA6827B2BF120DB6F34599A995FEC73 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				4B19010D32F21401E61493527A1A7446 /* Core */,
+				9B2A8509DB868E1BF9AEBB0DAC11E584 /* Default */,
+				B98162A7DBD698EFC53D21F7FCA2D1DD /* Extensions */,
+				A0EF88F8D113DF3B448DD8122E87AC5E /* Support Files */,
+				881477174A0B1E51AD30FF599C4FEAB1 /* Swift */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		2EE8CD06F698DC9EFDBE8E61D8496949 /* GBDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0F7DDFED8953A783DE73A9B3D55F1755 /* Core */,
+				2860DABDDD2DEAF179DFCF53B4DB56B1 /* Support Files */,
+			);
+			path = GBDeviceInfo;
+			sourceTree = "<group>";
+		};
+		4B19010D32F21401E61493527A1A7446 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E7D9C25388AC1B4C44424AF4A7479 /* DDAbstractDatabaseLogger.h */,
+				830647E07923502B9428923D1A4F4BE6 /* DDAbstractDatabaseLogger.m */,
+				837B99033FF87FE6163436D7F78ECF7C /* DDASLLogCapture.h */,
+				10DEC6E53748C4F7E80F4FC0EB709FDF /* DDASLLogCapture.m */,
+				379C306499FC65EB152C85D6D21C55DC /* DDASLLogger.h */,
+				DB546C886D2D553B11F17C7E0E7DE9D6 /* DDASLLogger.m */,
+				E5E18147D2EDD7589A78CB4EB1590247 /* DDAssertMacros.h */,
+				F06A3CE004C1F89F3604D7FF31801E27 /* DDFileLogger.h */,
+				C92944A6DEC6D740FF54B797941C5BCD /* DDFileLogger.m */,
+				A26068437210B1C8D942109A8FF0BD05 /* DDLegacyMacros.h */,
+				ACEDD780997E2763247BFDCA10A0CA13 /* DDLog.h */,
+				F0B7872831F128C60F8D0912ADE0750E /* DDLog.m */,
+				ABA78D27843C3D95F1C8E174460E669B /* DDLog+LOGV.h */,
+				0A82269DF480DC5EB3A17A9723B59977 /* DDLogMacros.h */,
+				FEC0203D2B34694E0DED69F1834DA71E /* DDTTYLogger.h */,
+				3D2E0671D4C22A08B5E6EFB02A5E7ACB /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		57FA899686BFC9375D99EF06FCC9D078 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F9EEE897B49DC3CF8FC3B27F49C4DF2 /* Info.plist */,
+				EB68D0261AEA2BF4CD8BE221B1D8EF60 /* SwiftColors.modulemap */,
+				17B93A74881C5BD81A567EE43E0975C6 /* SwiftColors.xcconfig */,
+				47174453E93FACF2AA4F5E9193364B95 /* SwiftColors-dummy.m */,
+				E99E581D683C59ADFB5B410E63A19F03 /* SwiftColors-prefix.pch */,
+				370062E4D018E8499B734C6E09EEAFC9 /* SwiftColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftColors";
+			sourceTree = "<group>";
+		};
+		6841D5FFA757FDBF3A429E696FD08CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02CBD10068452AA4C87E2BE578C096B /* AFDateHelper.framework */,
+				82B87E7293E2DC4445FBE514B47C1060 /* CocoaLumberjack.framework */,
+				176AD429B1F716829041738AD643507C /* GBDeviceInfo.framework */,
+				C5D2F4432635BD48682636807888889C /* Pods.framework */,
+				7523DEC48D1B3932E70C5C4C58A43F5E /* SlackTextViewController.framework */,
+				A34F2E995B4297BD37DA48240B6424D0 /* SnapKit.framework */,
+				4E7D71FD61AB373C077DF8FE387D3BA0 /* SwiftColors.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75CE96653E072263FEDAACF58524B35F /* AFDateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F2144BD62DFDEFAD5BCE6CEA8E218FC2 /* AFDateExtension.swift */,
+				DE68875A8FCA5FE4EC2E8216D8FAC9DC /* Support Files */,
+			);
+			path = AFDateHelper;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1DFCDE33A553A59B110CBBD8F0CEBB5C /* Pods */,
+				6841D5FFA757FDBF3A429E696FD08CF8 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		881477174A0B1E51AD30FF599C4FEAB1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				73A13E182D7D9F854A2707BB40CDC6D3 /* CocoaLumberjack.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		9B2A8509DB868E1BF9AEBB0DAC11E584 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				4F525EC4974EB7A83501D7F9AF67C82D /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		A0EF88F8D113DF3B448DD8122E87AC5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A6AFF7AA590861BBF257EE79A1B4435 /* CocoaLumberjack.modulemap */,
+				5628165072F3E85F9D9FFD1DC91C701B /* CocoaLumberjack.xcconfig */,
+				47D9AB7B3791A0A93608EFD340351550 /* CocoaLumberjack-dummy.m */,
+				DD6074D2D392904EA45C3113E29C1F0D /* CocoaLumberjack-prefix.pch */,
+				FFBFF3F5A1A9F5FB53CF66235275ECB0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		B10F97046189AC25010722BF91CF6233 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				892EE83FE13C7F222C838DCCF22C2466 /* Info.plist */,
+				A0600E9B3F9D09FD8D6D7E48203219FA /* SlackTextViewController.modulemap */,
+				21114E947E94779DEB4215B360AE6327 /* SlackTextViewController.xcconfig */,
+				559E42C11B3284C38F4438FC99BF7132 /* SlackTextViewController-dummy.m */,
+				609F29070A064CD518DD708CC54591DA /* SlackTextViewController-prefix.pch */,
+				67BCF8C50B892494F60BBF7DDBCBE3A1 /* SlackTextViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlackTextViewController";
+			sourceTree = "<group>";
+		};
+		B4F4784BFC9F2DA3B44630B5757B11F0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				06B7A5B67C823A56F1A64E5C6E2B4E81 /* Constraint.swift */,
+				522A92FCAA337914B0D7A5F19D06CCBE /* ConstraintAttributes.swift */,
+				00B4C34EB269FD2847D3F6EFC8112236 /* ConstraintDescription.swift */,
+				9E59FF1C516EFF1C924E5B05E7C29500 /* ConstraintItem.swift */,
+				D2146FDC01752BD6E411C12CF95B2D26 /* ConstraintMaker.swift */,
+				ED6802FE562C82C526D9C6B7106BFD27 /* ConstraintRelation.swift */,
+				F5CB198A3251AB54F7EB4F0D5A5E1FB9 /* Debugging.swift */,
+				9DA0D97807E1E9239241D0E7FFF5B785 /* EdgeInsets.swift */,
+				47820588797778002D233E1D558F256A /* LayoutConstraint.swift */,
+				4D284049E90C6B722F292C82059E127D /* SnapKit.swift */,
+				2CA59AAC910E3B98BC6EDB82558BA706 /* View+SnapKit.swift */,
+				1CD62A92A0A44EB8656B63B93F753F13 /* ViewController+SnapKit.swift */,
+				FEBDD9C562EB1AD952C8AAE63CFAC93B /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B98162A7DBD698EFC53D21F7FCA2D1DD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0BDF233EEBB165889A701DF24ECD90A0 /* DDContextFilterLogFormatter.h */,
+				08443D5B012FC22E27523612B96868DE /* DDContextFilterLogFormatter.m */,
+				F413F7D6A8D98852E2A44027E4948E84 /* DDDispatchQueueLogFormatter.h */,
+				3EA7D8EAE2AB369100903CC9F8994320 /* DDDispatchQueueLogFormatter.m */,
+				BAFED5AF3ECE92949F18086C9D549E02 /* DDMultiFormatter.h */,
+				923C4690FCA36514362A5028E3DC5164 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C554F7178D2F7B64BF21ECA972C6310D /* SwiftColors */ = {
+			isa = PBXGroup;
+			children = (
+				5B6554D2E936A2BD430696C6CF9C0E97 /* SwiftColors.swift */,
+				57FA899686BFC9375D99EF06FCC9D078 /* Support Files */,
+			);
+			path = SwiftColors;
+			sourceTree = "<group>";
+		};
+		DE68875A8FCA5FE4EC2E8216D8FAC9DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCF51A3F4D1CFA816B71557B19B933FD /* AFDateHelper.modulemap */,
+				C4ABA2E143EC975FD7D006CF30F16C2C /* AFDateHelper.xcconfig */,
+				0CFF786C755F07501B23EB8ABF0BCF79 /* AFDateHelper-dummy.m */,
+				5DFD62B76B3B23C5C681B041204D5888 /* AFDateHelper-prefix.pch */,
+				39B3332E3E4E0852F314645F240B1260 /* AFDateHelper-umbrella.h */,
+				4E7F2A8A79A79F1FFBA4A77855F464E4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFDateHelper";
+			sourceTree = "<group>";
+		};
+		FEBDD9C562EB1AD952C8AAE63CFAC93B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54032BF90788C0633600AF168D892941 /* Info.plist */,
+				56CFAF4BE0702D97439F8D3D8D1CC162 /* SnapKit.modulemap */,
+				37E403F3A83B400C89A769E608FCDC6D /* SnapKit.xcconfig */,
+				014F024068BFE412A7C71185BEAAA546 /* SnapKit-dummy.m */,
+				36AEE113071B4EF84D1D6AB109631A6F /* SnapKit-prefix.pch */,
+				2585C72E5BBAC53190282311C0813FD9 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1992DC9B9BD26B5ECBDBA19E1B58A21E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FE4DF0FA945C44D3E0C6BB63037FFF /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF657F463FCB076C4AFA1897021A1C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89A74333ED744626EA021E6D921975B /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E245F6D42B3A8D1F373AF181EF0DA25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806FF336D31CBB53FB891A25753664DE /* SlackTextViewController-umbrella.h in Headers */,
+				4043DC6FC0DC772A24E80DBE6F848F83 /* SLKInputAccessoryView.h in Headers */,
+				6CB1828C416F681A63BD11E611047377 /* SLKTextInputbar.h in Headers */,
+				21B7F1B6A9BE368489A2012FA1E8E6A8 /* SLKTextView+SLKAdditions.h in Headers */,
+				DAD7F3DFC704648E1E59054223603325 /* SLKTextView.h in Headers */,
+				82FA1C12B0617881A6806FCDE2142C82 /* SLKTextViewController.h in Headers */,
+				CBCADFADD7CB2142F237EAE793E7A4CA /* SLKTypingIndicatorProtocol.h in Headers */,
+				BD968DA2F98D7154D38AF4E63104A00E /* SLKTypingIndicatorView.h in Headers */,
+				B52ED7C3E386EAAEB87ED5D350FDD867 /* SLKUIConstants.h in Headers */,
+				3B11EEC07369EF0BD18D15CEBBC5A426 /* UIResponder+SLKAdditions.h in Headers */,
+				28902C634789436CD72BC8BB74187ACA /* UIScrollView+SLKAdditions.h in Headers */,
+				371909A654C1CA6858A82E65F775751C /* UIView+SLKAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53DFD70AA7E55660E46E4C6E135BF4FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5093C86CC0F7CCEBADF9E6135C6FB /* SwiftColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09FF1A9E676BE0BBCE355E35F595265 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E160CF773B8BE07B9677FB9218A532F /* GBDeviceInfo-umbrella.h in Headers */,
+				2950FA8486174E7E4259889F64F02862 /* GBDeviceInfo.h in Headers */,
+				AEECEAAD9A4595765E85A79BED9FDE1C /* GBDeviceInfo_Common.h in Headers */,
+				2BFFC46C8508E6D7607DEF4E3FAE82A5 /* GBDeviceInfo_iOS.h in Headers */,
+				345A8558F7074B9EF7C4119112160E8F /* GBDeviceInfo_Subclass.h in Headers */,
+				10E4F87EC05A156DFD144946522F1E06 /* GBDeviceInfoInterface.h in Headers */,
+				CA03F7722D1853741519CD97391C345D /* GBDeviceInfoTypes_Common.h in Headers */,
+				B59479B42D447FD2BB4B19038D16B372 /* GBDeviceInfoTypes_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71000ADFF78EB7B25D6797EA96A1E88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBE70BF278839FCFE6F66C0E7B65A495 /* AFDateHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6404F95A0B5D38808B453032F1C1D3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD81315E9E8FD7FD4F3C4D28BAB50C3D /* CocoaLumberjack.h in Headers */,
+				BED21B6237708EC89E1CDC9E7E4FCB49 /* DDAbstractDatabaseLogger.h in Headers */,
+				83DBBC894A6203F6E4CFCDDA4911C9AF /* DDASLLogCapture.h in Headers */,
+				EFD1A8C17A9631363C4AC6E2BE2F1434 /* DDASLLogger.h in Headers */,
+				91FDF8A5A1BC96856AC4470759421D6B /* DDAssertMacros.h in Headers */,
+				4661B2C1110AEF944B8A9848080FC2A2 /* DDContextFilterLogFormatter.h in Headers */,
+				FB73CC220FBF2BD69320CC68B7892CFB /* DDDispatchQueueLogFormatter.h in Headers */,
+				EE61F282567EEFBBDC8BA0BE06433C6F /* DDFileLogger.h in Headers */,
+				9630205806FA13CEE278F4E4FA6DA3F0 /* DDLegacyMacros.h in Headers */,
+				3DB7862FB83E65375AB21FC76E2DE753 /* DDLog+LOGV.h in Headers */,
+				BD687FC56130CEEB1049FEEC1127C5F7 /* DDLog.h in Headers */,
+				093609D078A154B7E17835F75A487E3C /* DDLogMacros.h in Headers */,
+				D2D417A51677012E9EEF8F1297F87231 /* DDMultiFormatter.h in Headers */,
+				ECB58C2372417300030D10FE302FD32E /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F3E6711767CAC584F0A7AE56D3FE73 /* Build configuration list for PBXNativeTarget "GBDeviceInfo" */;
+			buildPhases = (
+				520841CFD5B8DCFBF7CB0F17977CDCA5 /* Sources */,
+				F55A5D38E17DEE585641E9AD7B4831EC /* Frameworks */,
+				A09FF1A9E676BE0BBCE355E35F595265 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBDeviceInfo;
+			productName = GBDeviceInfo;
+			productReference = 176AD429B1F716829041738AD643507C /* GBDeviceInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77A742196FEB88DCC64D4177BBBED16A /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8729C8A381F30D8BBF26365B6CFC3160 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				FC6A37A83387F25A41C23F6C65ED2523 /* Sources */,
+				28FD4690B28B25CF233325ED2708BA55 /* Frameworks */,
+				3DF657F463FCB076C4AFA1897021A1C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = A34F2E995B4297BD37DA48240B6424D0 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD7EFC0AD6B65EAB01982090B2472977 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13FFAF99EB8FF8CD4D437540CB0E3E00 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				90045E72E5883D8900A7A49F83D0FFC2 /* Sources */,
+				6BA6093136D5F9642F2107207404DC14 /* Frameworks */,
+				1992DC9B9BD26B5ECBDBA19E1B58A21E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E4C7A1C13C69EE7D192DB466108FB7D /* PBXTargetDependency */,
+				3016A29CA43BA94AD6E69BF0E58FB755 /* PBXTargetDependency */,
+				7405AD083B6467C8CA089CE1E792837A /* PBXTargetDependency */,
+				D52B91C82661025FE66228FD6B702DA4 /* PBXTargetDependency */,
+				63037AAE623E8245C9293460C97D833B /* PBXTargetDependency */,
+				613F6CAC65179789FE75FB4B3E82EFAE /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = C5D2F4432635BD48682636807888889C /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D082FD9722F53B9C3A1229257D4008F7 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002F9559682E320A15C01003FF74440A /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				52C14FCAA97F89FBD9CE4212AC647DA7 /* Sources */,
+				4AEC251EB34CAF0A4D7614C38C9534F2 /* Frameworks */,
+				F6404F95A0B5D38808B453032F1C1D3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = 82B87E7293E2DC4445FBE514B47C1060 /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDB463CD22FFCCC5E9A287E3CC34880A /* SwiftColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A4BFE06CB09FC405582444F84265D6B /* Build configuration list for PBXNativeTarget "SwiftColors" */;
+			buildPhases = (
+				E2DCAF9BE86C0F247D5C0BADB47D64FC /* Sources */,
+				D7FEB54F7A0E2B675F7D44E47E56C76C /* Frameworks */,
+				53DFD70AA7E55660E46E4C6E135BF4FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftColors;
+			productName = SwiftColors;
+			productReference = 4E7D71FD61AB373C077DF8FE387D3BA0 /* SwiftColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1ADDC57BD295800566C564E5B0B24F6 /* SlackTextViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58056294E3C751AB262B99CB2A7D8CC /* Build configuration list for PBXNativeTarget "SlackTextViewController" */;
+			buildPhases = (
+				95899142314570B52CED642A70B38FFA /* Sources */,
+				CA5649C4B64E4B9F0796050F4D3921DB /* Frameworks */,
+				3E245F6D42B3A8D1F373AF181EF0DA25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlackTextViewController;
+			productName = SlackTextViewController;
+			productReference = 7523DEC48D1B3932E70C5C4C58A43F5E /* SlackTextViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F65B5FC465EEAE8D06DA022115DFDF17 /* AFDateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0880992EB24F6C5B614B6F388D64ACC /* Build configuration list for PBXNativeTarget "AFDateHelper" */;
+			buildPhases = (
+				E2CEE3A7CB3AC794712EE19F79499C43 /* Sources */,
+				0187858F3F0E6AF555DEE9DF8CBC71B8 /* Frameworks */,
+				D71000ADFF78EB7B25D6797EA96A1E88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFDateHelper;
+			productName = AFDateHelper;
+			productReference = D02CBD10068452AA4C87E2BE578C096B /* AFDateHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6841D5FFA757FDBF3A429E696FD08CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F65B5FC465EEAE8D06DA022115DFDF17 /* AFDateHelper */,
+				D082FD9722F53B9C3A1229257D4008F7 /* CocoaLumberjack */,
+				3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */,
+				BD7EFC0AD6B65EAB01982090B2472977 /* Pods */,
+				F1ADDC57BD295800566C564E5B0B24F6 /* SlackTextViewController */,
+				77A742196FEB88DCC64D4177BBBED16A /* SnapKit */,
+				DDB463CD22FFCCC5E9A287E3CC34880A /* SwiftColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520841CFD5B8DCFBF7CB0F17977CDCA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DD865D2612C625355429142922E74B /* GBDeviceInfo-dummy.m in Sources */,
+				CE845B8915DBE56DD3AD45F357984782 /* GBDeviceInfo_Common.m in Sources */,
+				1BC3900131C6A6750621041804090323 /* GBDeviceInfo_iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C14FCAA97F89FBD9CE4212AC647DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD2DCC591BB67DFE6B167ABB9D8DFF0 /* CocoaLumberjack-dummy.m in Sources */,
+				A943CEA0E0E9706EDA7D667E54A41383 /* CocoaLumberjack.swift in Sources */,
+				38AEB97731426DA92B56E52CCD850851 /* DDAbstractDatabaseLogger.m in Sources */,
+				58B4B7CF780F91B3FC5A32C54A4231C9 /* DDASLLogCapture.m in Sources */,
+				C0A0547274B4F3B3A59A0B40554047EB /* DDASLLogger.m in Sources */,
+				3F9228CAF4E9FB25F54FF8B1DEC44048 /* DDContextFilterLogFormatter.m in Sources */,
+				2FD9FC4A682F0F9B090634BA8D5473BD /* DDDispatchQueueLogFormatter.m in Sources */,
+				77567A39064755A7CEB4B1B36CA61A21 /* DDFileLogger.m in Sources */,
+				C3127BE1CA1F3DB05CA0F59A5935AC72 /* DDLog.m in Sources */,
+				7953181FD7F91C0AD76B2390BAAB34BF /* DDMultiFormatter.m in Sources */,
+				96791A9A2AC373B3169148CFDFB30329 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90045E72E5883D8900A7A49F83D0FFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0A66D6FFD76715E8013249FC9F2989 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95899142314570B52CED642A70B38FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52CCDA01DC0834762A81530E3E9A0EB /* SlackTextViewController-dummy.m in Sources */,
+				F1F18B1237219DA8851C06C2B6444EBB /* SLKInputAccessoryView.m in Sources */,
+				707092472B9A034BCBADF560B8514652 /* SLKTextInputbar.m in Sources */,
+				73211CAC36D737BDF6E7892DEF91D65E /* SLKTextView+SLKAdditions.m in Sources */,
+				077020931940E82DCDB496840C2BE8A4 /* SLKTextView.m in Sources */,
+				53D5FCEFD6749BE39BA091185013BC1C /* SLKTextViewController.m in Sources */,
+				9C560A779BCB939BFB45CE273FFEB387 /* SLKTypingIndicatorView.m in Sources */,
+				00580D0E74D427666ABC0653FA905D0F /* UIResponder+SLKAdditions.m in Sources */,
+				BDBC6DD1CC29BF42DEC4F076A742CF54 /* UIScrollView+SLKAdditions.m in Sources */,
+				ECA5EE5B36D30AC907E3686F2777C928 /* UIView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CEE3A7CB3AC794712EE19F79499C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA756951489E13FD03C8051CF791A0D9 /* AFDateExtension.swift in Sources */,
+				FA98D34460142546041601F57E2D7662 /* AFDateHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2DCAF9BE86C0F247D5C0BADB47D64FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABFEF2105DD5B06926104C7B94E8ABA /* SwiftColors-dummy.m in Sources */,
+				99A0409B94F27AB711149A02455CD76A /* SwiftColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6A37A83387F25A41C23F6C65ED2523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BC2225AE3CB4ABF230C602B945EA66 /* Constraint.swift in Sources */,
+				0E31B1063CDB87F9E557141B7A6DE9AC /* ConstraintAttributes.swift in Sources */,
+				C4649211293E6E7FAA93335F4C14377D /* ConstraintDescription.swift in Sources */,
+				58ACC26E2F919723B35E2E85A9E6C4C9 /* ConstraintItem.swift in Sources */,
+				8D7060421DD99DAF920F2E6D8685E997 /* ConstraintMaker.swift in Sources */,
+				F59A69BDF72CB491050ECF8CF7B52521 /* ConstraintRelation.swift in Sources */,
+				F1C238F8835C1630C61D89E1FC35833F /* Debugging.swift in Sources */,
+				9B2483F08016E84902490A4B455E9D66 /* EdgeInsets.swift in Sources */,
+				309CC3316F6CEFE800BBF47093211F48 /* LayoutConstraint.swift in Sources */,
+				110D7BE71AE8FD94BA4B956A5F8E4162 /* SnapKit-dummy.m in Sources */,
+				0F3945BDB5B276919FAD97284694FCE5 /* SnapKit.swift in Sources */,
+				844BE3BB2A382BFA4DA7D44C0BA737E0 /* View+SnapKit.swift in Sources */,
+				244C3DF7551E9C6F895A2CA8464C153D /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3016A29CA43BA94AD6E69BF0E58FB755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = D082FD9722F53B9C3A1229257D4008F7 /* CocoaLumberjack */;
+			targetProxy = 7F1F3298C1FC116F0079489DC31C5458 /* PBXContainerItemProxy */;
+		};
+		4E4C7A1C13C69EE7D192DB466108FB7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFDateHelper;
+			target = F65B5FC465EEAE8D06DA022115DFDF17 /* AFDateHelper */;
+			targetProxy = 04F577B097111D2164D1627858E8FCDE /* PBXContainerItemProxy */;
+		};
+		613F6CAC65179789FE75FB4B3E82EFAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftColors;
+			target = DDB463CD22FFCCC5E9A287E3CC34880A /* SwiftColors */;
+			targetProxy = BF4E01D28FC416A0BD650EE5D8C21D66 /* PBXContainerItemProxy */;
+		};
+		63037AAE623E8245C9293460C97D833B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 77A742196FEB88DCC64D4177BBBED16A /* SnapKit */;
+			targetProxy = AE1C810B20156C3F5B4CADE5026E9C2C /* PBXContainerItemProxy */;
+		};
+		7405AD083B6467C8CA089CE1E792837A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBDeviceInfo;
+			target = 3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */;
+			targetProxy = 030D7E1F8943B4F55A7B672560534389 /* PBXContainerItemProxy */;
+		};
+		D52B91C82661025FE66228FD6B702DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlackTextViewController;
+			target = F1ADDC57BD295800566C564E5B0B24F6 /* SlackTextViewController */;
+			targetProxy = C7CFDC75483DE86077C8EF807CC09C68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D7137B804385FEE6D68E61A07D9554E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A8D399C6D9E56059BB35F454C669F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B93A74881C5BD81A567EE43E0975C6 /* SwiftColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftColors/SwiftColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftColors/SwiftColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BACD555984C27D3A4788B32726A1594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ABA2E143EC975FD7D006CF30F16C2C /* AFDateHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFDateHelper/AFDateHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFDateHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFDateHelper/AFDateHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFDateHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FA171DB3738712CB58D9D83DE0FF575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E403F3A83B400C89A769E608FCDC6D /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CB23942AFDFB9AEF536FCB83620BA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21114E947E94779DEB4215B360AE6327 /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843BA4D4471245C1EACD7A67735AFB5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E403F3A83B400C89A769E608FCDC6D /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C50D8C01AA793858ACEE527D3363CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535EE2BC3B3C2140C01016F1376933CA /* GBDeviceInfo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GBDeviceInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB2F8C2E1D45E693039A37BD8004DAEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535EE2BC3B3C2140C01016F1376933CA /* GBDeviceInfo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GBDeviceInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5ECBC549B1BC3A05CD306E805078CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5628165072F3E85F9D9FFD1DC91C701B /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA8EDE2028E062726F9A82F66AA105D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5628165072F3E85F9D9FFD1DC91C701B /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E453F26D522161418524BDD7BBD514AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21114E947E94779DEB4215B360AE6327 /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB9C6AB98C5DCF63E03ED53478E8FCE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B93A74881C5BD81A567EE43E0975C6 /* SwiftColors.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftColors/SwiftColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftColors/SwiftColors.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF4A3FA01B0BE489ABEC0831BE52E83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ABA2E143EC975FD7D006CF30F16C2C /* AFDateHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFDateHelper/AFDateHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFDateHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFDateHelper/AFDateHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFDateHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9F1CA0442494F0C526710B936982788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002F9559682E320A15C01003FF74440A /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5ECBC549B1BC3A05CD306E805078CC7 /* Debug */,
+				CA8EDE2028E062726F9A82F66AA105D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13FFAF99EB8FF8CD4D437540CB0E3E00 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7137B804385FEE6D68E61A07D9554E /* Debug */,
+				F9F1CA0442494F0C526710B936982788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F3E6711767CAC584F0A7AE56D3FE73 /* Build configuration list for PBXNativeTarget "GBDeviceInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2F8C2E1D45E693039A37BD8004DAEE /* Debug */,
+				9C50D8C01AA793858ACEE527D3363CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4BFE06CB09FC405582444F84265D6B /* Build configuration list for PBXNativeTarget "SwiftColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8D399C6D9E56059BB35F454C669F98 /* Debug */,
+				EB9C6AB98C5DCF63E03ED53478E8FCE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8729C8A381F30D8BBF26365B6CFC3160 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA171DB3738712CB58D9D83DE0FF575 /* Debug */,
+				843BA4D4471245C1EACD7A67735AFB5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58056294E3C751AB262B99CB2A7D8CC /* Build configuration list for PBXNativeTarget "SlackTextViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB23942AFDFB9AEF536FCB83620BA22 /* Debug */,
+				E453F26D522161418524BDD7BBD514AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0880992EB24F6C5B614B6F388D64ACC /* Build configuration list for PBXNativeTarget "AFDateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A3FA01B0BE489ABEC0831BE52E83A /* Debug */,
+				2BACD555984C27D3A4788B32726A1594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

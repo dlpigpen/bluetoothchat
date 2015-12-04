@@ -1,0 +1,33 @@
+PODS:
+  - AFDateHelper (3.1.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (2.2.0):
+    - CocoaLumberjack/Extensions
+  - GBDeviceInfo (3.6.0):
+    - GBDeviceInfo/Core (= 3.6.0)
+  - GBDeviceInfo/Core (3.6.0)
+  - SlackTextViewController (1.7.2)
+  - SnapKit (0.18.0)
+  - SwiftColors (0.3.1)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - CocoaLumberjack/Swift (~> 2.0)
+  - GBDeviceInfo (~> 3.6)
+  - SlackTextViewController (~> 1.7)
+  - SnapKit (~> 0.15)
+  - SwiftColors (~> 0.3)
+
+SPEC CHECKSUMS:
+  AFDateHelper: 346694fc5861bdef77d8115e3825182a3fc697d2
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  GBDeviceInfo: 9f00de7d81a99204c3eb2a8aed660129fe3a82f7
+  SlackTextViewController: 1f4e8f68c156ef93de73fd422db2b8d5d5b0f4e7
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
+  SwiftColors: 61efe0bf991cfed446684e03d1e9f635f1f11a84
+
+COCOAPODS: 0.39.0
